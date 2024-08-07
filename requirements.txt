@@ -1,5 +1,5 @@
 joblib
 streamlit
 nltk
-sklearn
-re
+scikit-learn
+regex
