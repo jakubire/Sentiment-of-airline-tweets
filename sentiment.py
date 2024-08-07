@@ -58,10 +58,12 @@ def clean_for_pred(text):
 st.set_page_config(page_title="Sentiment Analysis", page_icon="💬", layout="wide")
 
 # Add a title and description
-st.title("Sentiment Analysis with MNB Model")
+st.title("Sentiment Analysis with Multinomial Naive Bayes Classifier Model")
 st.write("""
-This app uses a Multinomial Naive Bayes (MNB) model to predict the sentiment of a given text.
-You can enter a sentence, and the model will classify it as positive, negative, or neutral.
+This app uses a trained Multinomial Naive Bayes (MNB) model to predict the sentiment of a given text. 
+The text data used for training the model was obtained from airline tweets. Check kaggler for the raw data.
+You can enter a sentence, and the model will classify it as positive or negative sentiment. 
+**Contact Jacob Akubire @ jaakubire@gmail.com for anything concerning this app**
 """)
 
 # Add some styling
@@ -118,6 +120,6 @@ if text_input:
 # Footer
 st.markdown("""
 <div style="text-align: center; margin-top: 50px;">
-    <p>Developed with 💖 using Streamlit</p>
+    <p>Developed by Jacob Akubire</p>
 </div>
 """, unsafe_allow_html=True)
