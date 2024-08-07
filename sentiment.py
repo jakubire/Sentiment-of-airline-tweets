@@ -61,7 +61,7 @@ st.set_page_config(page_title="Sentiment Analysis", page_icon="💬", layout="wi
 st.title("Sentiment Analysis with Multinomial Naive Bayes Classifier Model")
 st.write("""
 This app uses a trained Multinomial Naive Bayes (MNB) model to predict the sentiment of a given text. 
-The text data used for training the model was obtained from airline tweets. Check kaggler for the raw data.
+The text data used to train the model is airline tweets obtained from kaggle.
 You can enter a sentence, and the model will classify it as positive or negative sentiment. 
 **Contact Jacob Akubire @ jaakubire@gmail.com for anything concerning this app**
 """)
