@@ -97,7 +97,7 @@ header, footer {
 """, unsafe_allow_html=True)
 
 # Input text
-text_input = st.text_input("Enter a sentence for sentiment analysis:")
+text_input = st.text_input("Enter a sentence to predict its sentiment:")
 
 if text_input:
     # Vectorize the input text
