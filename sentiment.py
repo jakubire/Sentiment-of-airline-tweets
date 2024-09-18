@@ -62,33 +62,7 @@ st.title("Sentiment Prediction App using Multinomial Naive Bayes Classifier Mode
 st.write("""This app uses a trained Multinomial Naive Bayes (MNB) model to predict the sentiment of a given text. The text data used to train the model is airline tweets obtained from kaggle. You can enter a sentence, and the model will classify it as positive or negative sentiment. **Contact Jacob Akubire @ jaakubire@gmail.com for anything concerning about using this Prediction App** ")
 
 # Add some styling
-st.markdown("""
-<style>
-body {
-    background-color: #f0f2f6;
-    color: #333;
-    font-family: 'Arial', sans-serif;
-}
-header, footer {
-    visibility: hidden;
-}
-.stTextInput > div > div > input {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-.stButton > button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.stButton > button:hover {
-    background-color: #45a049;
-}
-</style>
-""", unsafe_allow_html=True)
+
 
 # Input text
 text_input = st.text_input("Enter a sentence to predict its sentiment:")
