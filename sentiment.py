@@ -73,7 +73,6 @@ header, footer {
     visibility: hidden;
 }
 .stTextInput > div > div > input {
-    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
