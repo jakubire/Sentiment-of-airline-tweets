@@ -84,9 +84,4 @@ if text_input:
 
     # Display the result
     st.write(f"The sentiment of the entered text: {text_input} is **{sentiment}**.")
-
-# Footer
-st.markdown("""
-<div style="text-align: center; margin-top: 50px;">
-    <p>Developed by Jacob Akubire</p>
-</div>""", unsafe_allow_html=True)
+st.markdown('<p style="color:green; font-size:24px;">Developed by Jacob Akubire</p>', unsafe_allow_html=True)
