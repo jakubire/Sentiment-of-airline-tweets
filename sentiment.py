@@ -59,7 +59,7 @@ st.set_page_config(page_title="AIRLINE Sentiment Prediction WebTool", page_icon=
 
 # Add a title and description
 st.title("Sentiment Prediction App using Multinomial Naive Bayes Classifier Model")
-st.write("""This app uses a trained Multinomial Naive Bayes (MNB) model to predict the sentiment of a given text. The text data used to train the model is airline tweets obtained from kaggle. You can enter a sentence, and the model will classify it as positive or negative sentiment. **Contact Jacob Akubire @ jaakubire@gmail.com for anything concerning about using this Prediction App** ")
+st.write("This app uses a trained Multinomial Naive Bayes (MNB) model to predict the sentiment of a given text. The text data used to train the model is airline tweets obtained from kaggle. You can enter a sentence, and the model will classify it as positive or negative sentiment. **Contact Jacob Akubire @ jaakubire@gmail.com for anything concerning about using this Prediction App**")
 
 # Add some styling
 
