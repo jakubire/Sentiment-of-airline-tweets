@@ -89,5 +89,4 @@ if text_input:
 st.markdown("""
 <div style="text-align: center; margin-top: 50px;">
     <p>Developed by Jacob Akubire</p>
-</div>
-""", unsafe_allow_html=True)
+</div>""", unsafe_allow_html=True)
